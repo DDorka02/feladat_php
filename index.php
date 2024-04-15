@@ -30,14 +30,15 @@
             </ul>
         </div>
     </div>
+    <a href="Szelektiv.php">Szelektív</a>
     <h2>2. feladat</h2>
     <div class="masodik_feladat">
         <table>
             
         </table>
-    <?php
+<!-- <?php
     
-    $fo_sor = array(
+  /* $fo_sor = array(
     0 => "A megújuló erőforrások fogyasztása",
     1 => "A környezet helyzete",
     2 => "Fenntarthatóság",
@@ -75,10 +76,10 @@ print_r($masodik_sor);
 
 echo "Fenntarthatóság tömb: ";
 print_r($harmadik_sor);
+ */
 
-
-?>
-
+?> */
+ -->
     
 
 
