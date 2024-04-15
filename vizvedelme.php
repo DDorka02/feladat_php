@@ -11,13 +11,13 @@
     $tetelje ="<h1>Hogyan takarékoskodjunk</h1>";
     echo $tetelje;
     ?>
-    <form action="viz.php" method="post">
+    <form action="vizbackend.php" method="post">
         <label for="v">v folyadékáram sebesség:</label>
         <input type="number" name="v" id="v" value="1">
         <br>
         <label for="A">A folyadékáram (m2):</label>
         <input type="number" name="A" id="A" value='1'>
-        <input type="sumbit" value="Számol" name="szamol">
+        <input type="submit" value="Számol" name="szamol" value="szamol">
     </form>
 </body>
 </html>
