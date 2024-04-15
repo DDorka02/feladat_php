@@ -1,3 +1,6 @@
+<?php
+    include_once "backend.php";
+?>
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -10,7 +13,7 @@
     <?php
     $szemet = array("papír", "bab konzerv","tejes doboz", "sörös üveg");
     ?>
-    <form action="#" method="get">
+    <form action="backend.php" method="post">
         <label for="szemetem">Kidobható szemét</label>
         <select name="szemetem" id="szemetem">
         <?php
@@ -22,11 +25,6 @@
         <br>
         <input type="image" src="kuka.jpg" alt="kukák" name="kuka" id="kuka">
     </form>
-
-    <?php 
-        //var_dump($_GET)
-        
-    ?>
-
+    <a href="vizvedelme.php">Víz</a>
 </body>
 </html>
